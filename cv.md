@@ -1,4 +1,4 @@
-﻿# Irina Bukley
+# Irina Bukley
 
 ### Junior Frontend Developer
 
@@ -59,12 +59,10 @@ Nothing yet…
 * _University:_ Belarusian National Technical University
 * _Courses:_ 
         * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
-        * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress);
         * Udemy:
-            * HTML/CSS (in process…) ??????????? сделать ссылкой
-            * JavaScript (in process…) ??????????? сделать ссылкой
-	      * IT school TeachMeSkills: Front End разработчик ??????????? сделать ссылкой
-
+            * HTML/CSS
+            * JavaScript (in process…)
+	      * IT school TeachMeSkills: Front End разработчик
 
 ## Languages
 * _Russian_  - native speaker.
