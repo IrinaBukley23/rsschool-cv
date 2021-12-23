@@ -1,4 +1,4 @@
-# Irina Bukley
+﻿# Irina Bukley
 
 ### Junior Frontend Developer
 
@@ -32,6 +32,7 @@ _My strengths:_
 * Gulp, Webpack
 * VS Code
 * Adobe Photoshop, Figma
+* Blind typing in Russian and English
 
 ## Code example:
 
@@ -57,11 +58,12 @@ Nothing yet…
 ## Education
 * _University:_ Belarusian National Technical University
 * _Courses:_ 
+        * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
         * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress);
         * Udemy:
-            * HTML/CSS (in process…)
-            * JavaScript (in process…)
-	    * TMS Frontend developer (in process...)
+            * HTML/CSS (in process…) ??????????? сделать ссылкой
+            * JavaScript (in process…) ??????????? сделать ссылкой
+	      * IT school TeachMeSkills: Front End разработчик ??????????? сделать ссылкой
 
 
 ## Languages
