@@ -1,1 +1,1 @@
-(https://IrinaBukley23.github.io/rsschool-cv/)
+(https://rsschool-cv-8i9.pages.dev)
