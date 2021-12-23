@@ -13,7 +13,7 @@
 > Главное в человеке не ум, а то, что им управляет: характер, сердце, добрые чувства.
 > Ф.М. Достоевский
 
-I am 36 years old. In my current workplace, I have reached the ceiling. I need activities in which I can develop throughout my life. This is why I am here. My goal is to gain knowledge in the field of front-end development.
+In my current workplace, I have reached the ceiling. I need activities in which I can develop throughout my life. This is why I am here. My goal is to gain knowledge in the field of front-end development.
 
 _My strengths:_
 * Quick learner
