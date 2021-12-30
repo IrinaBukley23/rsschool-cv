@@ -8,8 +8,132 @@
 </head>
 <body>
     <header> 
-        <h1>My CV</h1>
+        <div><img src="img/my-photo.jpg" alt="my-photo"></div>
+        <div>
+            <h1>Irina Bukley</h1>
+            <h2>Junior Frontend developer</h2>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    
+                    <a href="#">Phone: +375 29 3310756</a>
+                </li>
+                <li>
+                    
+                    <a href="https://github.com/IrinaBukley23/">GitHub</a>
+                </li>
+                <li>
+                    
+                    <a href="@irina_bukley">Telegram</a>
+                </li>
+                <li>
+                    
+                    <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    
+
+    <main>
+        <section class="about-me">
+            <h2>About me</h2>
+            <p>In my current workplace, I have reached the ceiling. I need activities in which I can develop throughout my life.
+            The reason for changing the field of activity is the need for continuous self-improvement and the acquisition of new knowledge, skills and abilities, which makes me leave your comfort zone and grow both professionally and personally every day.</p>
+        </section>
+
+        <section class="skills">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS/SASS/SCSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>TypeScript basics</li>
+                <li>React</li>
+                <li>Git, GitHub</li>
+                <li> Gulp, Webpack</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop, Figma</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <div class="univer">
+                <ul>
+                    <li>Belarusian National Technical University</li>
+                    <li>Academy of Postgraduate Education</li>
+                </ul>
+            </div>
+            <div class="courses">
+                <ul>
+                    <li><a href="#">IT school TeachMeSkills: Front End developer</a></li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in process…);</li>
+                    <li>Udemy:
+                        <ul>
+                            <li><a href="https://www.udemy.com/certificate/UC-e5247487-dc03-4d89-bdb8-217fd60f60ac/">HTML/CSS</a></li>
+                            <li><a href="#">JavaScript + React (in process…)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div><a href="diploma-marvel-app.pages.dev"><img src="img/projects/marvel.jpg" alt="marvel"></a></div>
+            <div><a href="diploma-marvel-app.pages.dev"><img src="img/projects/marvel.jpg" alt="marvel"></a></div>
+            <div><a href="diploma-marvel-app.pages.dev"><img src="img/projects/marvel.jpg" alt="marvel"></a></div>
+
+            <pre>
+                <code>
+                    function initAccordions() {
+                        document
+                          .querySelectorAll(".accordion .accordion__show-more")
+                          .forEach( function (btnEl) {
+                            btnEl.addEventListener("click", function (event) {
+                              event.currentTarget
+                                .closest(".accordion")
+                                .classList.toggle("accordion_opened");
+                            });
+                          } );
+                      }
+                      
+                      initAccordions();
+                </code>
+            </pre>
+        </section>
+
+        <section class="more">
+            <div class="strenths">
+                <ul>
+                    <li>Quick learner</li>
+                    <li>Full immersion in the essence of the problems</li>
+                    <li>Diligence</li>
+                    <li>Team playing</li>
+                    <li>Blind typing in Russian and English</li>
+                </ul>
+            </div>
+            <div class="languages">
+                <ul>
+                    <li>Russian - native speaker.</li>
+                    <li>English - 
+                        <ul>
+                            <li>A2 - listening & speaking</li>
+                            <li>B2 - reading</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <ul>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

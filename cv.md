@@ -4,35 +4,40 @@
 
 ## Contact information:
 ** Phone: ** +375 29 3310756
-** E-mail: ** irenserge@mail.com
+** GitHub: ** https://github.com/IrinaBukley23/
 ** Telegram: ** @irina_bukley
-** LinkedIn: ** 'in plane'
+** LinkedIn: ** https://www.linkedin.com/feed/
 
 ## About Me
 
-> Главное в человеке не ум, а то, что им управляет: характер, сердце, добрые чувства.
-> Ф.М. Достоевский
-
-In my current workplace, I have reached the ceiling. I need activities in which I can develop throughout my life. This is why I am here. My goal is to gain knowledge in the field of front-end development.
-
-_My strengths:_
-* Quick learner
-* Full immersion in the essence of the problems
-* Diligence
-* Team playing
-* Keep learning…
+In my current workplace, I have reached the ceiling. I need activities in which I can develop throughout my life.  The reason for changing the field of activity is the need for continuous self-improvement and the acquisition of new knowledge, skills and abilities, which makes me leave your comfort zone and grow both professionally and personally every day.
 
 ## Skills and Proficiency:
-* HTML5, 
+* HTML5
 * CSS/SASS/SCSS
-* JavaScript Basics
-* Type Script Basics
-* React Basics
+* Bootstrap
+* JavaScript
+* TypeScript basics
+* React
 * Git, GitHub
 * Gulp, Webpack
 * VS Code
 * Adobe Photoshop, Figma
-* Blind typing in Russian and English
+
+## Education
+* _Universities:_
+      * Belarusian National Technical University
+      * Academy of Postgraduate Education
+* _Courses:_ 
+        * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
+        * Udemy:
+            * HTML/CSS
+            * JavaScript + React (in process…)
+	      * 
+
+
+## Work experience:
+* Project Marvel
 
 ## Code example:
 
@@ -52,18 +57,13 @@ function initAccordions() {
   initAccordions();
 ```
 
-## Work experience:
-Nothing yet…
-
-## Education
-* _University:_ Belarusian National Technical University
-* _Courses:_ 
-        * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
-        * Udemy:
-            * HTML/CSS
-            * JavaScript (in process…)
-	      * IT school TeachMeSkills: Front End разработчик
-
 ## Languages
 * _Russian_  - native speaker.
 * _English_ - A2 (B1 in process…)
+
+## _My strengths:_
+* Quick learner
+* Full immersion in the essence of the problems
+* Diligence
+* Team playing
+* Blind typing in Russian and English
