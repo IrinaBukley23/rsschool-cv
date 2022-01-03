@@ -1,5 +1,138 @@
-header{
-    width: 80%;
+* {
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper{
+    background-color: #dbcaeb;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 1170px;
     margin: 50px auto;
+}
+.title{
     text-align: center;
+    margin-bottom: 25px;
+}
+.main{
+    width: 85%;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #6c6275;
+    overflow: hidden;
+}
+.main-photo img{
+    width: 100%;
+}
+.main-row {
+    width: 60%;
+}
+.main-descr{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main-descr h1 {
+    margin-bottom: 25px;
+}
+.main-links, .skills-wrapper, .education-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.main-links__list, .skills-list{
+    font-size: 20px;
+}
+.main-links__list-item a, .education-list__item a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.about, .skills, .education, .experience, .more{
+    width: 85%;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.about_descr{
+    margin: 0 auto;
+    font-size: 23px;
+}
+.skills-list__item i{
+    margin-right: 25px;
+}
+
+.education-univer {
+    font-size: 23px;
+    width: 60%;
+}
+
+.education-list__item {
+    margin-bottom: 15px;
+}
+.education-courses{
+    font-size: 18px;
+}
+.experience-works {
+    display: flex;
+}
+.experience-work {
+    width: 33%;
+    margin: 0 5px;
+}
+.experience-work img {
+    width: 100%;
+}
+.more-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.more-list li i{
+    margin-right: 15px;
+}
+.more-list__inner{
+    padding-left: 50px;
+}
+
+/* footer section  */
+.footer__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_github-link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer_github-link svg{
+    transition: 0.4s all ease;
+}
+
+.footer_github-link svg:hover{ 
+    fill: #6c6275;
+}
+
+.footer_github-link,
+.footer__logo,
+.footer__logo svg {
+    transition: 0.4s ease;
+}
+.footer__logo svg:hover{ 
+    fill: #6c6275;
+}
+
+.footer_github-link:hover,
+.footer_github-link:hover {
+    color:#6c6275;
+    ;
 }
