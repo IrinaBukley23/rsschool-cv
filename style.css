@@ -17,50 +17,55 @@
     text-align: center;
     margin-bottom: 25px;
 }
-.main{
+.menu, .about, .skills, .education, .experience, .more{
+    width: 85%;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.promo{
     width: 85%;
     padding-top: 100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.main-photo{
+.promo-photo{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 5px solid #6c6275;
     overflow: hidden;
 }
-.main-photo img{
+.promo-photo img{
     width: 100%;
 }
-.main-row {
+.promo-row {
     width: 60%;
 }
-.main-descr{
+.promo-descr{
     margin-bottom: 50px;
     text-align: center;
 }
-.main-descr h1 {
+.promo-descr h1 {
     margin-bottom: 25px;
 }
-.main-links, .skills-wrapper, .education-wrapper {
+.promo-links, .skills-wrapper, .education-wrapper {
     display: flex;
     justify-content: space-around;
 }
-.main-links__list, .skills-list{
+.promo-links__list, .skills-list{
     font-size: 20px;
 }
-.main-links__list-item a, .education-list__item a{
+.promo-links__list-item a, .education-list__item a{
     margin-left: 15px;
     text-decoration: none;
     color: #000000;
 }
-.about, .skills, .education, .experience, .more{
-    width: 85%;
-    padding-top: 100px;
-    margin: 0 auto;
-}
+
 .about_descr{
     margin: 0 auto;
     font-size: 23px;
