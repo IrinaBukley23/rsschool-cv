@@ -25,6 +25,18 @@
     display: flex;
     justify-content: space-between;
 }
+.menu-list__item {
+    transition: 0.6s all;
+}
+.menu-list__item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+.menu-list__item:hover {
+    transform: scale(1.1);
+}
+
 .promo{
     width: 85%;
     padding-top: 100px;
@@ -78,7 +90,7 @@
 .education-univer {
     font-size: 23px;
     line-height: 43px;
-    width: 60%;
+    width: 32%;
 }
 
 .education-list__item {
@@ -89,7 +101,7 @@
     line-height: 43px;
     margin-left: 30px;
 }
-.works__title {
+.subtitle {
     margin: 50px 0 25px;
     text-align: center;
     font-size: 20px;
@@ -99,10 +111,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.experience-works__item:hover {
+    filter: grayscale(90%);
+}
 .experience-works__item {
     width: 300px;
     height: 300px;
     margin: 0 15px;
+    transition: all 0.6s;
 }
 
 .work, .work a, .work a img {
