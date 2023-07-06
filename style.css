@@ -187,11 +187,16 @@ footer {
     }
     .wrapper {
         margin: 20px auto;
+        max-width: 992px;
     }
 }
 @media (max-width: 992px) {
     .wrapper {
-        min-width: 960px;
+        max-width: 768px;
+    }
+    .promo-links {
+        flex-direction: column;
+        margin-left: 25px;
     }
     .experience-works__item {
         width: 255px;
@@ -202,24 +207,8 @@ footer {
 }
 @media (max-width: 768px) {
     .wrapper {
-        min-width: 740px;
-        margin: 10px;
-    }
-    .promo-links {
-        flex-direction: column;
-        margin-left: 25px;
-    }
-    .experience-works__item {
-        width: 190px;
-    }
-}
-@media (max-width: 576px) {
-    .wrapper {
-        min-width: 550px;
-        margin: 5px;
-    }
-    .menu {
-        padding-top: 30px;
+        max-width: 576px;
+        margin: 10px auto;
     }
     .promo {
         padding-top: 50px;
@@ -244,12 +233,6 @@ footer {
     .promo-links__list {
         font-size: 18px;
     }
-    .menu, .about, .skills, .education, .experience, .more{
-        padding-top: 40px;
-    }
-    .skills-list__item, .education-list__item {
-        font-size: 18px;
-    }
     .education-wrapper {
         flex-direction: column;
     }
@@ -267,5 +250,20 @@ footer {
     }
     .more-languages, .more-strenths {
         margin-bottom: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .wrapper {
+        max-width: 550px;
+        margin: 5px auto;
+    }
+    .menu {
+        padding-top: 30px;
+    }
+    .menu, .about, .skills, .education, .experience, .more{
+        padding-top: 40px;
+    }
+    .skills-list__item, .education-list__item {
+        font-size: 18px;
     }
 }
