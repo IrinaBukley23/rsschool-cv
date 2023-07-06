@@ -254,7 +254,7 @@ footer {
 }
 @media (max-width: 576px) {
     .wrapper {
-        max-width: 550px;
+        max-width: 500px;
         margin: 5px auto;
     }
     .menu {
@@ -265,5 +265,58 @@ footer {
     }
     .skills-list__item, .education-list__item {
         font-size: 18px;
+    }
+}
+@media (max-width: 500px) {
+    .wrapper {
+        max-width: 300px;
+        margin: 5px auto;
+    }
+    .menu-list {
+        flex-wrap: wrap;
+    }
+    .menu-list__item {
+        margin: 8px 15px;
+    }
+    .promo-links {
+        flex-direction: column;
+    }
+    .promo-descr__name {
+        font-size: 30px;
+    }
+    .promo-descr__role {
+        font-size: 22px;
+    }
+    .promo-links__list-item {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .about_descr {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .skills-wrapper {
+        flex-direction: column;
+    }
+    .skills-list {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .education-univer, .education-courses {
+        margin-left: 0;
+    }
+    .education-list__item {
+        font-size: 14px;
+        line-height: 23px;  
+    }
+    .education-list__item a {
+        line-height: 0;  
+    }
+    .experience-works__item {
+        width: 90%;
+    }
+    .more-wrapper {
+        margin-left: 10px;
+        line-height: 23px;
     }
 }
