@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .wrapper{
     background-color: #a0f6c4;
     border-radius: 20px;
@@ -53,6 +56,10 @@
 }
 .promo-photo img{
     width: 100%;
+    transition: all 0.8s ease-in;
+}
+.promo-photo img:hover {
+    transform: scale(1.4);
 }
 .promo-row {
     width: 60%;
@@ -100,11 +107,45 @@
 
 .education-list__item {
     margin-bottom: 15px;
+    position: relative;
+    /* z-index: 5; */
 }
 .education-courses{
     font-size: 18px;
     line-height: 43px;
     margin-left: 30px;
+}
+.rs-stage0 {
+    position: relative;
+}
+.stage0 {
+    display: none;
+    width: 300px;
+    height: 200px;
+}
+.stage0 img {
+    width: 100%;
+}
+.rs-stage0:hover + .stage0 {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: -50%;
+    left: 15%;
+}
+.rs-stage1:hover + .stage0 {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: -200%;
+    right: 30%;
+}
+.rs-stage3:hover + .stage0 {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: -180%;
+    left: 15%;
 }
 .subtitle {
     margin: 50px 0 25px;
@@ -181,6 +222,7 @@ footer {
 .footer_github-link:hover {
     color:#6c6275;
 }
+
 @media (max-width: 1200px) {
     .education-courses {
         font-size: 16px;
@@ -269,7 +311,7 @@ footer {
 }
 @media (max-width: 500px) {
     .wrapper {
-        max-width: 300px;
+        max-width: 90%;
         margin: 5px auto;
     }
     .menu-list {
