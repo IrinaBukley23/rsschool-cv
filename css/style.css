@@ -169,10 +169,36 @@ html {
 .work {
     overflow: hidden;
 }
-
-.work, .work a, .work a img {
-    width: 100%;
+.window {
+    background: url('../img/projects/window.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 200px;
 }
+.portfolio {
+    background: url('../img/projects/portfolio-rs.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+
+    height: 200px;
+}
+.memory-game {
+    background: url('../img/projects/memory-game.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 200px;
+}
+.to-do-list {
+    background: url('../img/projects/marvel.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 200px;
+}
+
 .more-wrapper{
     display: flex;
     justify-content: space-evenly;
